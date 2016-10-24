@@ -17,6 +17,7 @@
 		3F7136101DB9ECA100847907 /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F71360F1DB9ECA100847907 /* VideoPlayViewController.m */; };
 		3F7136131DB9ECAD00847907 /* RecordOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7136121DB9ECAD00847907 /* RecordOneViewController.m */; };
 		3F7136161DB9ECB700847907 /* RecordTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7136151DB9ECB700847907 /* RecordTwoViewController.m */; };
+		3FB11B201DBD9F0B0017AE85 /* CustomVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB11B1F1DBD9F0B0017AE85 /* CustomVideoPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		3F7136121DB9ECAD00847907 /* RecordOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordOneViewController.m; sourceTree = "<group>"; };
 		3F7136141DB9ECB700847907 /* RecordTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTwoViewController.h; sourceTree = "<group>"; };
 		3F7136151DB9ECB700847907 /* RecordTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTwoViewController.m; sourceTree = "<group>"; };
+		3FB11B1E1DBD9F0B0017AE85 /* CustomVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVideoPlayerViewController.h; sourceTree = "<group>"; };
+		3FB11B1F1DBD9F0B0017AE85 /* CustomVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVideoPlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 			children = (
 				3F71360E1DB9ECA100847907 /* VideoPlayViewController.h */,
 				3F71360F1DB9ECA100847907 /* VideoPlayViewController.m */,
+				3FB11B1E1DBD9F0B0017AE85 /* CustomVideoPlayerViewController.h */,
+				3FB11B1F1DBD9F0B0017AE85 /* CustomVideoPlayerViewController.m */,
 			);
 			path = VideoPlay;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				3F7136101DB9ECA100847907 /* VideoPlayViewController.m in Sources */,
 				3F7135ED1DB9E60300847907 /* AppDelegate.m in Sources */,
 				3F7136131DB9ECAD00847907 /* RecordOneViewController.m in Sources */,
+				3FB11B201DBD9F0B0017AE85 /* CustomVideoPlayerViewController.m in Sources */,
 				3F7135EA1DB9E60300847907 /* main.m in Sources */,
 				3F7136161DB9ECB700847907 /* RecordTwoViewController.m in Sources */,
 				3F7136091DB9EA3500847907 /* LLMainTableViewController.m in Sources */,
@@ -372,6 +378,7 @@
 				3F7135FE1DB9E60300847907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
